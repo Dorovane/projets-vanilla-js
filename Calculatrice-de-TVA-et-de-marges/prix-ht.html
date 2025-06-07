@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Base-HT</title>
+</head>
+<body>
+  <div class="container ">
+    <h1>Calcul selon le prix HT(Hors-taxes)</h1>
+    <select id="select-input">
+      <option value="0" disabled selected>Selectionnez le taux de la TVA</option>
+      <option value="0.021">2.1</option>
+      <option value="0.O55">5.5</option>
+      <option value="0.1">10</option>
+      <option value="0.2">20</option>
+    </select><br>
+    <label> Entrez le prix d'achat hors taxes(HT)
+      <input type="number" id="HT-price-input" class="form-control" placeholder="prix HT...">
+    </label><br>
+    <label> Entrez le prix de la revente
+      <input type="number" id="selling-price-input" class="form-control" placeholder="prix...">
+    </label><br>
+    <hr>
+    <p>Prix TTC(toutes taxes comprises) :</p><span id="TTC-price-span"></span><br>
+    <p>Montant de la TVA :</p><span id="TVA-value"></span><br>
+    <p>Marge brute :</p><span id="margin"></span><br>
+    <p>Marge brute en % :</p><span id="margin-percentage"></span><p>%</p>
+    <button class=" btn btn-outline-primary">Exporter en tant que PDF</button>
+  </div>
+</body>
+
+<script src="prix-ht.js"></script>
+</html>

@@ -1,0 +1,61 @@
+1. Prix HT
+HT = Hors Taxes
+
+C’est le prix de base du produit, avant la TVA.
+
+Exemple : 100 € HT → ça veut dire le produit coûte 100 €, sans la TVA.
+
+2. TVA
+TVA = Taxe sur la Valeur Ajoutée
+
+C’est une taxe qu’on ajoute au prix HT pour obtenir le prix final.
+
+Le taux peut être 20% (standard), 10%, ou 5.5% (réduit) ou même 2.1(super réduit).
+
+Exemple :
+
+Si le prix est 100 € HT
+
+Et que la TVA est de 20%
+
+Alors : TVA = 100 * 0.20 = 20 €
+
+3. Prix TTC
+TTC = Toutes Taxes Comprises
+
+C’est le prix final que le client paie, donc :
+
+Prix TTC = Prix HT + TVA
+
+Avec l’exemple : 100 € HT + 20 € TVA = 120 € TTC
+
+4. Coût d’acquisition
+C’est combien toi tu paies pour obtenir ou fabriquer le produit.
+
+Exemple : tu achètes un T-shirt 50 € → c’est ton coût d’achat
+
+5. Marge brute
+C’est ce que tu gagnes :
+
+Marge brute = Prix de vente HT - Coût d’achat
+
+Exemple :
+
+Tu vends à 100 € HT
+
+Tu l’as payé 60 €
+
+Marge brute = 100 - 60 = 40 €
+
+6. Taux de marge (%)
+C’est le pourcentage de gain par rapport au prix de vente :
+
+Taux de marge = (Marge brute / Prix HT) * 100
+
+Exemple :
+
+Marge brute : 40 €
+
+Prix HT : 100 €
+
+Taux = (40 / 100) * 100 = 40 %

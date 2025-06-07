@@ -1,0 +1,2 @@
+document.getElementsByClassName('btn')[0].addEventListener('click',()=>location.href='prix-ht.html');
+document.getElementsByClassName('btn')[1].addEventListener('click',()=>location.href='prix-ttc.html');

@@ -1,0 +1,35 @@
+🔧 Objectif du projet :
+Créer une interface web simple qui permet à l’utilisateur :
+
+D’entrer un prix HT ou TTC
+
+De choisir un taux de TVA (5.5%, 10%, 20%, etc.)
+
+De calculer automatiquement :
+
+Le prix TTC si l’utilisateur entre un prix HT
+
+Le prix HT si l’utilisateur entre un prix TTC
+
+Le montant de la TVA
+
+D’entrer le prix d’achat du produit (coût d’acquisition)
+
+De calculer la marge brute :
+
+Formule : Marge brute = Prix de vente HT - Prix d’achat
+
+Afficher aussi le taux de marge (%)
+
+D’avoir un bouton pour exporter tous ces résultats au format PDF
+
+Manipulation des formulaires HTML
+
+Écoute d’événements JS (input, change, click)
+
+Calculs dynamiques en JS
+
+Affichage conditionnel dans la page
+
+Génération de PDF en JS
+
